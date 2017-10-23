@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HelloWorld", "01-HelloWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Print-Text-To-Console", "02-Print-Text-To-Console\02-Print-Text-To-Console.csproj", "{5CA0AB6E-152F-448F-B46A-0A0D8D8E49AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Papagoi", "03-Papagoi\03-Papagoi.csproj", "{95C968E1-5D00-41A8-881B-8041F6008671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5CA0AB6E-152F-448F-B46A-0A0D8D8E49AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CA0AB6E-152F-448F-B46A-0A0D8D8E49AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CA0AB6E-152F-448F-B46A-0A0D8D8E49AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C968E1-5D00-41A8-881B-8041F6008671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C968E1-5D00-41A8-881B-8041F6008671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C968E1-5D00-41A8-881B-8041F6008671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C968E1-5D00-41A8-881B-8041F6008671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
