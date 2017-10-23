@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Random number Guess", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Guess-A-Magic-Number-Again", "05-Guess-A-Magic-Number-Again\05-Guess-A-Magic-Number-Again.csproj", "{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Excuses-Print-All-For", "07-Excuses-Print-All-For\07-Excuses-Print-All-For.csproj", "{EE12D87E-97C8-4161-B38A-669F43D576FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE12D87E-97C8-4161-B38A-669F43D576FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE12D87E-97C8-4161-B38A-669F43D576FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE12D87E-97C8-4161-B38A-669F43D576FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE12D87E-97C8-4161-B38A-669F43D576FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
