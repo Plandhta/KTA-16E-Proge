@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Papagoi", "03-Papagoi\03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-SummaCalc", "04-SummaCalc\04-SummaCalc.csproj", "{70F1A000-DC88-4152-AE40-F58AC8C32EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random number Guess", "Random number Guess\Random number Guess.csproj", "{8A57962D-BCF8-4F94-821E-DCBBF4E70A6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Random number Guess", "Random number Guess\06-Random number Guess.csproj", "{8A57962D-BCF8-4F94-821E-DCBBF4E70A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Guess-A-Magic-Number-Again", "05-Guess-A-Magic-Number-Again\05-Guess-A-Magic-Number-Again.csproj", "{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8A57962D-BCF8-4F94-821E-DCBBF4E70A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A57962D-BCF8-4F94-821E-DCBBF4E70A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A57962D-BCF8-4F94-821E-DCBBF4E70A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1BB02F-2370-4CEA-B8B3-0CD8F532F808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
