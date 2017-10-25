@@ -14,17 +14,24 @@ namespace DiceRoller
 
             Console.WriteLine("/roll 3d6 2d8");
             Console.Write(Environment.NewLine);
+
+            var total = 0;
+
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("1d6: " + rnd.Next(1, 6));
+                var roll = rnd.Next(1, 7);
+                Console.WriteLine("1d6: " + roll);
+                total += roll;
             }
 
             for (int i = 0; i < 2; i++)
             {
-                Console.WriteLine("1d8: " + rnd.Next(1, 8));
+                var roll = rnd.Next(1, 9);
+                Console.WriteLine("1d8: " + roll);
+                total += roll;
             }
             Console.Write(Environment.NewLine);          
-            Console.WriteLine("Roll total: 20");
+            Console.WriteLine("Roll total:" + total);
             Console.ReadLine();
                 
         }
