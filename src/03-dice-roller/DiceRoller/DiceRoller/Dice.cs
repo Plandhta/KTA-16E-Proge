@@ -12,7 +12,7 @@ namespace DiceRoller
 
         public string Description { get; }
 
-        private Random Random { get; }
+        private static readonly Random Random = new Random();
 
         private Dice(int sides, string description)
         {
