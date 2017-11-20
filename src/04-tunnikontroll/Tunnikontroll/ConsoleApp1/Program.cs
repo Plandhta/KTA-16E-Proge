@@ -14,8 +14,7 @@ namespace RestaurantReceipt
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Restaurant restaurant = new Restaurant("Taco Palenque", "1200 Main ST.");
-            Console.WriteLine(Restaurant.v1;
+            Restaurant restaurant = new Restaurant("Taco Palenque", "1200 Main ST.");       
 
             Tab tab = new Tab();
 
@@ -25,7 +24,7 @@ namespace RestaurantReceipt
 
             foreach (var item in tab.items)
             {
-                Console.WriteLine($"Price of food item: {item}");
+                Console.WriteLine($"Price of food item: {item:F2}");
             }
 
             Receipt receipt = restaurant.GetReceipt(tab);
@@ -33,7 +32,7 @@ namespace RestaurantReceipt
             Console.Write(receipt);
 
             Console.WriteLine();
-            Console.WriteLine("Press any key to continue");
+            
             Console.ReadKey();
         }
     }

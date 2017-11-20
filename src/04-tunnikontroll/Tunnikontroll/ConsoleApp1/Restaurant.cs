@@ -2,7 +2,7 @@
 
 namespace RestaurantReceipt
 {
-    internal class Restaurant
+    class Restaurant
     {
         private string v1;
         private string v2;
@@ -11,11 +11,14 @@ namespace RestaurantReceipt
         {
             this.v1 = v1;
             this.v2 = v2;
+            Console.WriteLine(v1);
+            Console.WriteLine(v2);
+            Console.WriteLine("------------------------------------");
         }
 
-        internal Receipt GetReceipt(Tab tab)
+        public Receipt GetReceipt(Tab tab)
         {
-            throw new NotImplementedException();
+            return new Receipt(tab);
         }
     }
 }
