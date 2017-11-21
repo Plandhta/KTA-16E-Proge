@@ -17,28 +17,25 @@ namespace Blackjack.Clint.Console
             //aces are all 11 or 1 points, player chooses
             //when player draws a card, house draws a card
 
-            
-            var c4 = new Card("4", Suite.Club, 4);
-            c4.Hidden = false;
+            var cards = new List<Card>
 
-            var h6 = new Card("6", Suite.Heart, 6);
-            h6.Hidden = false;
-
-            var s8 = new Card("8", Suite.Spade, 8);
-            s8.Hidden = false;
-
-            var dJ = new Card("J", Suite.Diamond, 10);
-
-            // 4C = card.Rank 0 card.Suite
-            // 4C = card.Dscription;
+            {
+            new Card("4", Suite.Club, 4, false),
+            new Card("6", Suite.Heart, 6, false),
+            new Card("8", Suite.Spade, 8, false),
+            new Card("J", Suite.Diamond, 10, true),
+            new Card("4", Suite.Spade, 4, false),
+            new Card("T", Suite.Heart, 10, true)
+            };
 
 
+            var deck = new Deck(cards);
 
             Console.WriteLine("Welcome to the game of BlackJack!");
             Console.WriteLine();
 
-            Console.WriteLine($"You have been dealt: {c4.Description}, {h6.Description}");
-            Console.WriteLine($"House has been dealt: {s8.Description}, {(dJ.Hidden ? "[?]" : dJ.Description)}");
+            Console.WriteLine($"You have been dealt: {GetCardDescription(deck.Next())}, {GetCardDescription(deck.Next())}");
+            Console.WriteLine($"House has been dealt: {GetCardDescription(deck.Next())}, {GetCardDescription(deck.Next())}");
 
             Console.WriteLine("What is your decision?");
             Console.WriteLine("Choice 1: Take another card");
@@ -47,8 +44,8 @@ namespace Blackjack.Clint.Console
             Console.WriteLine("I choose 1");
             Console.WriteLine();
 
-            Console.WriteLine("You have been dealt: 4S");
-            Console.WriteLine("House has been dealt: [?]");
+            Console.WriteLine($"You have been dealt: {GetCardDescription(deck.Next())}");
+            Console.WriteLine($"House has been dealt: {GetCardDescription(deck.Next())}");
             Console.WriteLine();
 
             Console.WriteLine("What is your decision?");
@@ -67,5 +64,11 @@ namespace Blackjack.Clint.Console
             Console.ReadKey();
 
         }
+
+        public static string GetCardDescription(Card card)
+        {
+            return card.Hidden ? "[?]" : card.Description;
+        }
     }
 }
+
